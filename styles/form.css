@@ -1,0 +1,63 @@
+#formedit{
+    background-color: aqua;
+    width: max-content;
+    height: max-content;
+}
+
+#formadd{
+    background-color: yellow;
+    width: max-content;
+    height: max-content;
+}
+
+.show{
+    display: inline, !important;
+}
+
+.hide{
+    display: none;
+}
+
+#tampilan{
+    background-color: rgb(210, 162, 162);
+    background-size: cover;
+    height: 100vh;
+}
+
+#tampilantabel{
+    background-color: beige;
+    color: black;
+}
+#tabeldalam{
+    background-color: cadetblue;
+}
+
+.style0{
+    background-image: url('../pages/gambar/beranda.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+#navbar {
+    list-style-type: none;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: right;
+    line-height:30px;
+    background-color:bisque;
+  }
+  
+  #navbar li a:hover {
+    color: #0e00d3;
+  }
+
+  #navbar li {
+    margin: 0 10px;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
